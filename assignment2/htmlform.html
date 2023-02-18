@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+</head>
+<body>
+    <h1>form Registration</h1>
+    <form action="./CheckURL.html" method="get">
+        <label for="frist">Name</label>
+        <input type="text" name="frist" id="SecondName" placeholder="Enter Your Name" required>
+        <p> </p>
+        <label for="SecondName">Email</label>
+        <input type="text" name="SecondName" id="SecondName" placeholder="Enter Your Email" required>
+        <p> </p>
+        <label for="Password"> Password </label>
+        <input type="text" name="Password" id="Password" placeholder="Enter Your Password" required>
+        <p></p>
+        <label for="Language"><Strong>Language </Strong></label><br>
+        <input type="radio" value="React" name="Language">React <br>
+        <input type="radio" value="Angular" name="Language">Angular <br>
+        <input type="radio" value="Vue" name="Language">Vue
+        <p></p>
+        <label for="course"><strong>course</strong></label><br>
+        <input type="checkbox" name="course" value="MERN">MERN<br>
+        <input type="checkbox" name="course" value="MEAN">MEAN<br>
+        <input type="checkbox" name="course" value="MEVN">MEVN<br>
+        <p></p>
+       <label for="Field" required>Field:</label>
+       <br>
+       <select name="Frontend" id="Field">
+        <option value="Front End" id="Field">Front End</option>
+        <option value="Back End" id="Field">Back End</option>
+        <option value="Full Stack" id="Field">Full Stack</option>
+       </select>
+       <p></p>
+       <textarea name="text" id="text"></textarea>
+       <br>
+       <label for="Phone">Phone Number</label>
+       <input type="Phone" id="Phone">
+       <button type="submit" name="Submit">Submit</button>
+    </form>
+<h1>TABLES</h1>
+<a href="./table.html">Click Here</a>
+</body>
+</html>
